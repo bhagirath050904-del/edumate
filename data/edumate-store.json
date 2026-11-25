@@ -1,0 +1,521 @@
+{
+  "profile": {
+    "name": "Bhagirath",
+    "program": "B.Tech · Computer Science & Engineering",
+    "preferredLanguage": "en",
+    "learningStyle": "visual_analogies",
+    "explanationDepth": "balanced",
+    "dailyGoalMinutes": 150,
+    "focusMinutesLogged": 495,
+    "streakDays": 6,
+    "weakConcepts": [
+      "Adiabatic Processes",
+      "Spectral Decomposition",
+      "Banker’s Algorithm"
+    ],
+    "feedbackHistory": [
+      {
+        "id": "fb_seed_1",
+        "module": "doubt",
+        "signal": "helpful",
+        "detail": "Waterfall analogy made Carnot efficiency click immediately.",
+        "timestamp": "2026-11-24T09:08:00.033Z"
+      }
+    ],
+    "weeklyStudy": [
+      {
+        "day": "Mon",
+        "minutes": 95,
+        "sessions": 3,
+        "retentionIndex": 68
+      },
+      {
+        "day": "Tue",
+        "minutes": 120,
+        "sessions": 4,
+        "retentionIndex": 72
+      },
+      {
+        "day": "Wed",
+        "minutes": 85,
+        "sessions": 2,
+        "retentionIndex": 71
+      },
+      {
+        "day": "Thu",
+        "minutes": 140,
+        "sessions": 4,
+        "retentionIndex": 77
+      },
+      {
+        "day": "Fri",
+        "minutes": 110,
+        "sessions": 3,
+        "retentionIndex": 80
+      },
+      {
+        "day": "Sat",
+        "minutes": 155,
+        "sessions": 5,
+        "retentionIndex": 85
+      },
+      {
+        "day": "Sun",
+        "minutes": 90,
+        "sessions": 3,
+        "retentionIndex": 87
+      }
+    ],
+    "subjectMastery": [
+      {
+        "subject": "Physics",
+        "mastery": 78,
+        "hoursLogged": 6.4,
+        "doubtsResolved": 9,
+        "nextRevisionDays": 2
+      },
+      {
+        "subject": "Linear Algebra",
+        "mastery": 66,
+        "hoursLogged": 5.1,
+        "doubtsResolved": 7,
+        "nextRevisionDays": 1
+      },
+      {
+        "subject": "Computer Science",
+        "mastery": 84,
+        "hoursLogged": 7.2,
+        "doubtsResolved": 11,
+        "nextRevisionDays": 4
+      },
+      {
+        "subject": "Biology",
+        "mastery": 73,
+        "hoursLogged": 3.8,
+        "doubtsResolved": 4,
+        "nextRevisionDays": 3
+      }
+    ],
+    "voicePreferences": {
+      "enabledLanguages": [
+        "en",
+        "hi",
+        "es",
+        "fr",
+        "ta"
+      ],
+      "voicePersona": "Kore",
+      "playbackSpeed": 1,
+      "voicePitch": "standard",
+      "autoSpeakAnswers": false,
+      "voiceInputAutoSend": false
+    }
+  },
+  "materials": [
+    {
+      "id": "mat_thermo_01",
+      "title": "Laws of Thermodynamics & Entropy Cycles",
+      "subject": "Physics",
+      "content": "First Law of Thermodynamics: Energy cannot be created or destroyed; the change in internal energy of a closed system equals the heat supplied minus the work done by the system: ΔU = Q - W. For an isothermal process in an ideal gas, ΔU = 0 so Q = W. For an adiabatic process, Q = 0 so ΔU = -W.\n\nSecond Law of Thermodynamics & Entropy: In any spontaneous natural process, the total entropy of an isolated system always increases (ΔS_universe >= 0). Entropy change for a reversible heat transfer is ΔS = ∫ dQ_rev / T. Heat never spontaneously flows from a colder reservoir to a hotter reservoir without external work.\n\nCarnot Cycle Efficiency: A Carnot engine operates reversibly between a hot reservoir at temperature T_H and a cold reservoir at T_C (in Kelvin). Its maximum theoretical efficiency is η = 1 - (T_C / T_H). No real heat engine operating between the same two temperatures can exceed Carnot efficiency because real cycles involve friction and irreversible heat transfer across finite temperature gradients.\n\nGibbs Free Energy: At constant temperature and pressure, spontaneity is determined by ΔG = ΔH - TΔS. A reaction or process is spontaneous when ΔG < 0, at equilibrium when ΔG = 0, and non-spontaneous when ΔG > 0.",
+      "createdAt": "2026-11-20T09:08:00.033Z",
+      "wordCount": 214,
+      "chunkCount": 4,
+      "hasEmbeddings": false,
+      "chunks": [
+        {
+          "id": "chk_89573ee8",
+          "text": "First Law of Thermodynamics: Energy cannot be created or destroyed; the change in internal energy of a closed system equals the heat supplied minus the work done by the system: ΔU = Q - W. For an isothermal process in an ideal gas, ΔU = 0 so Q = W. For an adiabatic process, Q = 0 so ΔU = -W."
+        },
+        {
+          "id": "chk_fe369b36",
+          "text": "ss in an ideal gas, ΔU = 0 so Q = W. For an adiabatic process, Q = 0 so ΔU = -W. Second Law of Thermodynamics & Entropy: In any spontaneous natural process, the total entropy of an isolated system always increases (ΔS_universe >= 0). Entropy change for a reversible heat transfer is ΔS = ∫ dQ_rev / T. Heat never spontaneously flows from a colder reservoir to a hotter reservoir without external work."
+        },
+        {
+          "id": "chk_6cbc1f52",
+          "text": "ously flows from a colder reservoir to a hotter reservoir without external work. Carnot Cycle Efficiency: A Carnot engine operates reversibly between a hot reservoir at temperature T_H and a cold reservoir at T_C (in Kelvin). Its maximum theoretical efficiency is η = 1 - (T_C / T_H). No real heat engine operating between the same two temperatures can exceed Carnot efficiency because real cycles involve friction and irreversible heat transfer across finite temperature gradient"
+        },
+        {
+          "id": "chk_302994aa",
+          "text": "volve friction and irreversible heat transfer across finite temperature gradients.\n\nGibbs Free Energy: At constant temperature and pressure, spontaneity is determined by ΔG = ΔH - TΔS. A reaction or process is spontaneous when ΔG < 0, at equilibrium when ΔG = 0, and non-spontaneous when ΔG > 0."
+        }
+      ]
+    },
+    {
+      "id": "mat_linalg_02",
+      "title": "Eigenvalues, Eigenvectors & Spectral Decomposition",
+      "subject": "Linear Algebra",
+      "content": "Definition: For a square n×n matrix A, a nonzero vector v is an eigenvector with eigenvalue λ if Av = λv. Geometrically, matrix A stretches or flips vector v along its own span without rotating it off its line of action.\n\nCharacteristic Polynomial: Rewriting Av = λv gives (A - λI)v = 0. Nonzero solutions exist if and only if det(A - λI) = 0. The roots of this characteristic polynomial are the eigenvalues of A. The sum of eigenvalues equals the trace tr(A), and the product of eigenvalues equals det(A).\n\nDiagonalization & Powers of Matrices: If A has n linearly independent eigenvectors placed as columns of P, and D is the diagonal matrix of corresponding eigenvalues, then A = P D P⁻¹. Computing A^k simplifies dramatically to P D^k P⁻¹, which is essential in Markov chains, dynamical systems, and PageRank.\n\nSpectral Theorem for Symmetric Matrices: Every real symmetric matrix (A = Aᵀ) has strictly real eigenvalues and an orthonormal basis of eigenvectors, yielding A = Q Λ Qᵀ where Q is orthogonal (Q⁻¹ = Qᵀ). Principal Component Analysis (PCA) applies this theorem directly to the covariance matrix to find orthogonal directions of maximum variance.",
+      "createdAt": "2026-11-22T09:08:00.033Z",
+      "wordCount": 195,
+      "chunkCount": 4,
+      "hasEmbeddings": false,
+      "chunks": [
+        {
+          "id": "chk_f6a86e62",
+          "text": "Definition: For a square n×n matrix A, a nonzero vector v is an eigenvector with eigenvalue λ if Av = λv. Geometrically, matrix A stretches or flips vector v along its own span without rotating it off its line of action."
+        },
+        {
+          "id": "chk_76bb20b6",
+          "text": "or flips vector v along its own span without rotating it off its line of action. Characteristic Polynomial: Rewriting Av = λv gives (A - λI)v = 0. Nonzero solutions exist if and only if det(A - λI) = 0. The roots of this characteristic polynomial are the eigenvalues of A. The sum of eigenvalues equals the trace tr(A), and the product of eigenvalues equals det(A)."
+        },
+        {
+          "id": "chk_39a3e994",
+          "text": "igenvalues equals the trace tr(A), and the product of eigenvalues equals det(A). Diagonalization & Powers of Matrices: If A has n linearly independent eigenvectors placed as columns of P, and D is the diagonal matrix of corresponding eigenvalues, then A = P D P⁻¹. Computing A^k simplifies dramatically to P D^k P⁻¹, which is essential in Markov chains, dynamical systems, and PageRank."
+        },
+        {
+          "id": "chk_c4a52a52",
+          "text": "P D^k P⁻¹, which is essential in Markov chains, dynamical systems, and PageRank. Spectral Theorem for Symmetric Matrices: Every real symmetric matrix (A = Aᵀ) has strictly real eigenvalues and an orthonormal basis of eigenvectors, yielding A = Q Λ Qᵀ where Q is orthogonal (Q⁻¹ = Qᵀ). Principal Component Analysis (PCA) applies this theorem directly to the covariance matrix to find orthogonal directions of maximum variance."
+        }
+      ]
+    },
+    {
+      "id": "mat_os_03",
+      "title": "CPU Scheduling, Deadlocks & Virtual Memory",
+      "subject": "Computer Science",
+      "content": "CPU Scheduling Algorithms: Operating systems balance throughput, turnaround time, waiting time, and response time. Shortest Job First (SJF) minimizes average waiting time but risks starvation of long processes. Round Robin (RR) assigns a fixed time quantum q to guarantee fair response times in interactive systems; if q is too small, context-switch overhead dominates; if q is too large, RR degrades into First-Come First-Served (FCFS).\n\nFour Coffman Conditions for Deadlock: A deadlock can only occur if all four hold simultaneously: (1) Mutual Exclusion, (2) Hold and Wait, (3) No Preemption, and (4) Circular Wait. Breaking any single condition prevents deadlock—for example, imposing a strict global ordering on resource lock acquisition eliminates Circular Wait.\n\nBanker's Algorithm (Deadlock Avoidance): Before granting a resource request, the OS checks whether the resulting state remains \"safe\"—meaning there exists at least one safe execution sequence where every process can obtain its maximum declared resources and terminate.\n\nVirtual Memory & Page Replacement: Paging separates logical addresses from physical frames. When a referenced page is absent from RAM, a page fault triggers disk fetch. Least Recently Used (LRU) approximates Belady's optimal algorithm by exploiting temporal locality, whereas FIFO can suffer from Belady's Anomaly where adding more frames increases page faults.",
+      "createdAt": "2026-11-23T09:08:00.033Z",
+      "wordCount": 201,
+      "chunkCount": 4,
+      "hasEmbeddings": false,
+      "chunks": [
+        {
+          "id": "chk_df609587",
+          "text": "CPU Scheduling Algorithms: Operating systems balance throughput, turnaround time, waiting time, and response time. Shortest Job First (SJF) minimizes average waiting time but risks starvation of long processes. Round Robin (RR) assigns a fixed time quantum q to guarantee fair response times in interactive systems; if q is too small, context-switch overhead dominates; if q is too large, RR degrades into First-Come First-Served (FCFS)."
+        },
+        {
+          "id": "chk_35205263",
+          "text": "d dominates; if q is too large, RR degrades into First-Come First-Served (FCFS). Four Coffman Conditions for Deadlock: A deadlock can only occur if all four hold simultaneously: (1) Mutual Exclusion, (2) Hold and Wait, (3) No Preemption, and (4) Circular Wait. Breaking any single condition prevents deadlock—for example, imposing a strict global ordering on resource lock acquisition eliminates Circular Wait."
+        },
+        {
+          "id": "chk_fe7a8b7e",
+          "text": "a strict global ordering on resource lock acquisition eliminates Circular Wait. Banker's Algorithm (Deadlock Avoidance): Before granting a resource request, the OS checks whether the resulting state remains \"safe\"—meaning there exists at least one safe execution sequence where every process can obtain its maximum declared resources and terminate."
+        },
+        {
+          "id": "chk_96fad582",
+          "text": "nce where every process can obtain its maximum declared resources and terminate. Virtual Memory & Page Replacement: Paging separates logical addresses from physical frames. When a referenced page is absent from RAM, a page fault triggers disk fetch. Least Recently Used (LRU) approximates Belady's optimal algorithm by exploiting temporal locality, whereas FIFO can suffer from Belady's Anomaly where adding more frames increases page faults."
+        }
+      ]
+    },
+    {
+      "id": "mat_bio_04",
+      "title": "Cellular Respiration & ATP Yield Pathways",
+      "subject": "Biology",
+      "content": "Overview of Aerobic Respiration: Cells oxidize glucose (C6H12O6) across four coupled stages: Glycolysis (cytoplasm), Pyruvate Oxidation (mitochondrial matrix), Citric Acid / Krebs Cycle (matrix), and Oxidative Phosphorylation (inner mitochondrial membrane).\n\nGlycolysis: Splits one 6-carbon glucose into two 3-carbon pyruvate molecules. Consumes 2 ATP in the investment phase and produces 4 ATP in the payoff phase, giving a net yield of 2 ATP and 2 NADH per glucose. Glycolysis requires no oxygen and feeds anaerobic fermentation when O2 is absent.\n\nCitric Acid Cycle: Each acetyl-CoA (two per glucose) enters the cycle, releasing CO2 and generating 3 NADH, 1 FADH2, and 1 GTP/ATP per turn (so 6 NADH, 2 FADH2, 2 ATP per glucose).\n\nElectron Transport Chain & Chemiosmosis: NADH and FADH2 donate high-energy electrons to Complexes I–IV, pumping protons (H⁺) into the intermembrane space to establish an electrochemical proton-motive gradient. Oxygen acts as the final electron acceptor, forming water. Protons flow back through ATP synthase to synthesize approximately 26–28 ATP, bringing total aerobic yield to roughly 30–32 ATP per glucose.",
+      "createdAt": "2026-11-24T09:08:00.033Z",
+      "wordCount": 169,
+      "chunkCount": 5,
+      "hasEmbeddings": false,
+      "chunks": [
+        {
+          "id": "chk_ec978fa1",
+          "text": "Overview of Aerobic Respiration: Cells oxidize glucose (C6H12O6) across four coupled stages: Glycolysis (cytoplasm), Pyruvate Oxidation (mitochondrial matrix), Citric Acid / Krebs Cycle (matrix), and Oxidative Phosphorylation (inner mitochondrial membrane)."
+        },
+        {
+          "id": "chk_8227e8fb",
+          "text": "bs Cycle (matrix), and Oxidative Phosphorylation (inner mitochondrial membrane). Glycolysis: Splits one 6-carbon glucose into two 3-carbon pyruvate molecules. Consumes 2 ATP in the investment phase and produces 4 ATP in the payoff phase, giving a net yield of 2 ATP and 2 NADH per glucose. Glycolysis requires no oxygen and feeds anaerobic fermentation when O2 is absent."
+        },
+        {
+          "id": "chk_ab184900",
+          "text": "lycolysis requires no oxygen and feeds anaerobic fermentation when O2 is absent. Citric Acid Cycle: Each acetyl-CoA (two per glucose) enters the cycle, releasing CO2 and generating 3 NADH, 1 FADH2, and 1 GTP/ATP per turn (so 6 NADH, 2 FADH2, 2 ATP per glucose)."
+        },
+        {
+          "id": "chk_385b507d",
+          "text": "3 NADH, 1 FADH2, and 1 GTP/ATP per turn (so 6 NADH, 2 FADH2, 2 ATP per glucose). Electron Transport Chain & Chemiosmosis: NADH and FADH2 donate high-energy electrons to Complexes I–IV, pumping protons (H⁺) into the intermembrane space to establish an electrochemical proton-motive gradient. Oxygen acts as the final electron acceptor, forming water. Protons flow back through ATP synthase to synthesize approximately 26–28 ATP, bringing total aerobic yield to roughly 30–32 ATP pe"
+        },
+        {
+          "id": "chk_1d89f31b",
+          "text": "ze approximately 26–28 ATP, bringing total aerobic yield to roughly 30–32 ATP per glucose."
+        }
+      ]
+    }
+  ],
+  "doubts": [
+    {
+      "id": "msg_seed_1",
+      "role": "student",
+      "content": "Why can’t even a perfectly frictionless Carnot engine reach 100% efficiency?",
+      "language": "en",
+      "subject": "Physics",
+      "timestamp": "2026-11-24T09:08:00.033Z"
+    },
+    {
+      "id": "msg_seed_2",
+      "role": "assistant",
+      "content": "### Why 100% Efficiency Is Physically Impossible\n\nEven if you eliminate every trace of friction, a cyclic heat engine is bounded by the **Second Law of Thermodynamics** and the temperature ratio of its two reservoirs:\n\n`η = 1 - (T_C / T_H)`\n\n#### Step-by-Step Reasoning\n1. **Heat carries entropy:** When the engine absorbs heat `Q_H` from the hot reservoir at `T_H`, it also takes in entropy `ΔS_in = Q_H / T_H`.\n2. **Work carries zero entropy:** Pure mechanical work `W` transfers ordered energy without carrying entropy out of the engine.\n3. **The engine must reset each cycle:** To return to its starting state, the engine has to dump at least `ΔS_in` of entropy into the cold reservoir at `T_C`, which forces it to reject waste heat `Q_C >= T_C · (Q_H / T_H)`.\n\n#### Concrete Intuition\nThink of a waterfall turning a turbine: energy extraction depends on the *drop* between the top height (`T_H`) and bottom height (`T_C`). Reaching 100% efficiency would require `T_C = 0 K` (absolute zero), which is unattainable in finite steps.\n\n**Checkpoint question:** If a Carnot engine runs between `500 K` and `250 K`, how much heat must be rejected for every `100 J` absorbed?",
+      "language": "en",
+      "subject": "Physics",
+      "timestamp": "2026-11-24T09:08:00.033Z",
+      "retrievedSources": [
+        {
+          "materialId": "mat_thermo_01",
+          "materialTitle": "Laws of Thermodynamics & Entropy Cycles",
+          "subject": "Physics",
+          "text": "Carnot Cycle Efficiency: A Carnot engine operates reversibly between a hot reservoir at temperature T_H and a cold reservoir at T_C (in Kelvin). Its maximum theoretical efficiency is η = 1 - (T_C / T_H).",
+          "score": 0.91
+        }
+      ],
+      "pipelineMetrics": {
+        "retrievalMs": 42,
+        "synthesisMs": 840,
+        "topSimilarity": 0.91,
+        "chunksSearched": 16,
+        "usedVectorEmbeddings": true
+      },
+      "followUpSuggestions": [
+        "Walk me through solving the 500 K to 250 K checkpoint",
+        "How does entropy relate to Gibbs free energy?",
+        "Generate a 5-question practice quiz on Thermodynamics"
+      ],
+      "feedback": {
+        "rating": "helpful",
+        "timestamp": "2026-11-24T09:08:00.033Z"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "id": "note_thermo_01",
+      "title": "Carnot Efficiency & Entropy Intuition",
+      "subject": "Physics",
+      "language": "en",
+      "sourceMaterialId": "mat_thermo_01",
+      "summary": "Heat engines convert thermal energy into mechanical work by operating between two temperature reservoirs. Even an idealized frictionless engine cannot convert 100% of heat into work because some heat must be rejected to keep total entropy from decreasing.",
+      "keyConcepts": [
+        {
+          "term": "Carnot Efficiency (η)",
+          "definition": "The strict upper bound on heat engine efficiency determined solely by Kelvin reservoir temperatures: η = 1 - T_C / T_H.",
+          "analogy": "Like a waterwheel: you can only extract work from the height drop between upper and lower water levels, never from the flat pond below."
+        },
+        {
+          "term": "Entropy (ΔS)",
+          "definition": "A state function quantifying energy dispersal and microscopic multiplicity; total entropy of an isolated system never decreases.",
+          "analogy": "Dropping ink into water spreads naturally across countless configurations, while spontaneously re-gathering into one droplet never happens."
+        },
+        {
+          "term": "Gibbs Free Energy (ΔG)",
+          "definition": "Combines enthalpy and entropy (ΔG = ΔH - TΔS) to predict spontaneity at constant temperature and pressure.",
+          "analogy": "A net budget check: enthalpy is the direct cash cost, while TΔS is the freedom bonus you gain from spreading energy out."
+        }
+      ],
+      "formulasOrRules": [
+        "ΔU = Q - W (First Law of Thermodynamics)",
+        "η_Carnot = 1 - (T_C / T_H)  [Temperatures strictly in Kelvin]",
+        "ΔS_rev = ∫ dQ_rev / T  and  ΔS_universe >= 0",
+        "ΔG = ΔH - TΔS  (< 0 implies spontaneous process)"
+      ],
+      "memoryAnchors": [
+        "Always convert Celsius to Kelvin (+273.15) before plugging into η = 1 - T_C / T_H.",
+        "Isothermal ideal gas → ΔT = 0 → ΔU = 0 → all heat absorbed becomes work (Q = W)."
+      ],
+      "commonPitfalls": [
+        "Using °C instead of Kelvin in the Carnot ratio — this produces wildly wrong efficiencies.",
+        "Confusing ΔS_system < 0 with a violation of the Second Law; local entropy can drop if surroundings gain more entropy."
+      ],
+      "createdAt": "2026-11-23T09:08:00.033Z",
+      "masteryScore": 78,
+      "lastReviewedAt": "2026-11-24T09:08:00.033Z"
+    },
+    {
+      "id": "note_os_02",
+      "title": "Deadlock Prevention & Scheduling Trade-offs",
+      "subject": "Computer Science",
+      "language": "en",
+      "sourceMaterialId": "mat_os_03",
+      "summary": "Operating systems juggle responsiveness against throughput in CPU scheduling and must either prevent or avoid circular waits when multiple threads compete for exclusive locks.",
+      "keyConcepts": [
+        {
+          "term": "Round Robin Quantum (q)",
+          "definition": "The fixed CPU slice allocated to each ready process before preemption.",
+          "analogy": "A fair kitchen timer shared among chefs: too short and everyone spends all day swapping stations; too long and late orders burn."
+        },
+        {
+          "term": "Coffman Conditions",
+          "definition": "The four necessary conditions for deadlock: Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait.",
+          "analogy": "A four-way traffic gridlock where every car blocks the next intersection and refuses to reverse."
+        }
+      ],
+      "formulasOrRules": [
+        "Turnaround Time = Completion Time - Arrival Time",
+        "Waiting Time = Turnaround Time - Burst Time",
+        "Lock Ordering Rule: Acquire lock(i) before lock(j) whenever i < j to break Circular Wait"
+      ],
+      "memoryAnchors": [
+        "M-H-N-C: Mutual exclusion, Hold & wait, No preemption, Circular wait.",
+        "LRU follows temporal locality; FIFO can fail with Belady’s Anomaly."
+      ],
+      "commonPitfalls": [
+        "Assuming Shortest Job First works well without knowing burst lengths in advance — OS kernels approximate it with exponential averaging.",
+        "Thinking Banker’s Algorithm prevents deadlock; it actually performs dynamic deadlock avoidance using declared maxima."
+      ],
+      "createdAt": "2026-11-24T09:08:00.033Z",
+      "masteryScore": 84,
+      "lastReviewedAt": "2026-11-25T09:08:00.033Z"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz_thermo_01",
+      "title": "Thermodynamics & Entropy Checkpoint",
+      "subject": "Physics",
+      "language": "en",
+      "sourceMaterialId": "mat_thermo_01",
+      "createdAt": "2026-11-23T09:08:00.033Z",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "A reversible Carnot engine operates between 600 K and 300 K. What is its maximum theoretical efficiency?",
+          "options": [
+            "25%",
+            "50%",
+            "66.7%",
+            "100%"
+          ],
+          "correctIndex": 1,
+          "explanation": "Using η = 1 - (T_C / T_H) = 1 - (300 / 600) = 0.50, or 50%. Both temperatures are already in Kelvin.",
+          "conceptTag": "Carnot Efficiency",
+          "difficulty": "foundation"
+        },
+        {
+          "id": "q2",
+          "question": "During an adiabatic compression of an ideal gas (Q = 0), what happens to the internal energy ΔU?",
+          "options": [
+            "ΔU stays zero because heat transfer is zero",
+            "ΔU decreases because the gas loses heat",
+            "ΔU increases because work done on the gas raises its temperature",
+            "ΔU oscillates depending on pressure only"
+          ],
+          "correctIndex": 2,
+          "explanation": "From ΔU = Q - W with Q = 0, compressing the gas means work done by the gas W is negative, so ΔU = -W > 0.",
+          "conceptTag": "Adiabatic Processes",
+          "difficulty": "applied"
+        },
+        {
+          "id": "q3",
+          "question": "Which condition guarantees a chemical process is spontaneous at constant temperature and pressure?",
+          "options": [
+            "ΔH > 0 and ΔS < 0",
+            "ΔG < 0",
+            "ΔS_system = 0",
+            "ΔG > 0"
+          ],
+          "correctIndex": 1,
+          "explanation": "Gibbs free energy ΔG = ΔH - TΔS determines spontaneity at constant T and P; ΔG < 0 means spontaneous.",
+          "conceptTag": "Gibbs Free Energy",
+          "difficulty": "foundation"
+        }
+      ],
+      "attempts": [
+        {
+          "id": "att_01",
+          "date": "2026-11-23T09:08:00.033Z",
+          "score": 2,
+          "total": 3,
+          "weakConcepts": [
+            "Adiabatic Processes"
+          ]
+        }
+      ]
+    }
+  ],
+  "studyPlan": {
+    "id": "plan_midterm_01",
+    "goalTitle": "Midterm Examinations — Core STEM Track",
+    "examDate": "2026-12-07",
+    "dailyHours": 3.5,
+    "subjects": [
+      "Physics",
+      "Linear Algebra",
+      "Computer Science",
+      "Biology"
+    ],
+    "strategySummary": "Front-loads high-leverage weak concepts (Adiabatic Processes, Spectral Decomposition) in morning deep-work blocks while interleaving short evening active-recall quizzes to flatten the forgetting curve.",
+    "createdAt": "2026-11-23T09:08:00.033Z",
+    "blocks": [
+      {
+        "id": "blk_1",
+        "dayIndex": 0,
+        "dayLabel": "Today",
+        "date": "2026-11-25",
+        "subject": "Physics",
+        "topic": "Adiabatic vs. Isothermal Work Derivations",
+        "durationMinutes": 45,
+        "blockType": "concept",
+        "priority": "high",
+        "completed": true,
+        "completedAt": "2026-11-25T09:08:00.033Z"
+      },
+      {
+        "id": "blk_2",
+        "dayIndex": 0,
+        "dayLabel": "Today",
+        "date": "2026-11-25",
+        "subject": "Linear Algebra",
+        "topic": "Characteristic Polynomials & Diagonalization Drills",
+        "durationMinutes": 50,
+        "blockType": "practice",
+        "priority": "high",
+        "completed": false
+      },
+      {
+        "id": "blk_3",
+        "dayIndex": 0,
+        "dayLabel": "Today",
+        "date": "2026-11-25",
+        "subject": "Computer Science",
+        "topic": "Coffman Deadlock Conditions Active Recall",
+        "durationMinutes": 30,
+        "blockType": "revision",
+        "priority": "medium",
+        "completed": false
+      },
+      {
+        "id": "blk_4",
+        "dayIndex": 1,
+        "dayLabel": "Tomorrow",
+        "date": "2026-11-26",
+        "subject": "Biology",
+        "topic": "Oxidative Phosphorylation & ATP Yield Mapping",
+        "durationMinutes": 45,
+        "blockType": "concept",
+        "priority": "medium",
+        "completed": false
+      },
+      {
+        "id": "blk_5",
+        "dayIndex": 1,
+        "dayLabel": "Tomorrow",
+        "date": "2026-11-26",
+        "subject": "Physics",
+        "topic": "Carnot Cycle & Gibbs Free Energy Timed Quiz",
+        "durationMinutes": 35,
+        "blockType": "quiz",
+        "priority": "high",
+        "completed": false
+      },
+      {
+        "id": "blk_6",
+        "dayIndex": 2,
+        "dayLabel": "Day 3",
+        "date": "2026-11-27",
+        "subject": "Linear Algebra",
+        "topic": "Spectral Theorem & PCA Orthogonality Review",
+        "durationMinutes": 50,
+        "blockType": "revision",
+        "priority": "high",
+        "completed": false
+      },
+      {
+        "id": "blk_7",
+        "dayIndex": 2,
+        "dayLabel": "Day 3",
+        "date": "2026-11-27",
+        "subject": "Computer Science",
+        "topic": "Banker’s Algorithm Safe-Sequence Walkthroughs",
+        "durationMinutes": 45,
+        "blockType": "practice",
+        "priority": "medium",
+        "completed": false
+      }
+    ]
+  }
+}

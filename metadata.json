@@ -1,0 +1,6 @@
+{
+  "name": "EduMate",
+  "description": "Learn smarter. Plan better. Stress less. An intelligent study companion uniting RAG-powered doubt solving, smart notes and quiz generation, adaptive study planning, progress analytics, and multilingual voice support.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
